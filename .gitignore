@@ -1,0 +1,42 @@
+# Ignore backend environment files
+backend/.env
+backend/app/.env
+
+# Ignore frontend environment files (except .env.production)
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# NLTK data (downloaded at runtime)
+backend/nltk_data/
