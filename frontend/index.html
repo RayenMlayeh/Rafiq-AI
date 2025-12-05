@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafiq-AI: Nuit de l'Info 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Special+Elite&family=Crimson+Text:wght@400;600;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['Playfair Display', 'serif'],
+              typewriter: ['Special Elite', 'monospace'],
+              body: ['Crimson Text', 'serif'],
+              mono: ['IBM Plex Mono', 'monospace'],
+            },
+            colors: {
+              vintage: {
+                cream: '#F5F1E8',
+                sand: '#E8DCC4',
+                sepia: '#C4A57B',
+                burgundy: '#7A4848',
+                forest: '#4A5F4A',
+                brass: '#B8860B',
+                charcoal: '#2C2C2C',
+                ink: '#1A1A1A',
+                mahogany: '#5C3D2E',
+                paper: '#FAF7F0',
+              },
+              retro: {
+                gold: '#D4AF37',
+                copper: '#B87333',
+                bronze: '#8C6D46',
+              }
+            },
+            boxShadow: {
+              'vintage': '0 4px 12px rgba(44, 44, 44, 0.15)',
+              'paper': '0 2px 8px rgba(44, 44, 44, 0.08)',
+              'desk': '0 8px 24px rgba(44, 44, 44, 0.2)',
+              'inset-paper': 'inset 0 2px 4px rgba(44, 44, 44, 0.1)',
+            },
+            animation: {
+              'typewriter': 'typewriter 0.5s steps(20) forwards',
+              'stamp': 'stamp 0.4s ease-out',
+              'pop': 'pop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards',
+              'fade-in': 'fadeIn 0.6s ease-out',
+              'slide-up': 'slideUp 0.5s ease-out',
+              'paper-rustle': 'paperRustle 0.3s ease-out',
+              'ink-fade': 'inkFade 1s ease-out',
+              'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
+              'envelope-fold': 'envelopeFold 0.6s ease-out',
+              'wax-seal': 'waxSeal 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55)',
+              'telegraph': 'telegraph 1s steps(10) infinite',
+              'radio-dial': 'radioDial 3s ease-in-out infinite',
+              'vintage-flicker': 'vintageFlicker 0.15s infinite',
+              'neon-glow': 'neonGlow 1.5s ease-in-out infinite alternate',
+              'page-turn': 'pageTurn 0.6s ease-out',
+              'drawer-slide': 'drawerSlide 0.4s ease-out',
+            },
+            keyframes: {
+              typewriter: {
+                '0%': { width: '0', opacity: '0' },
+                '1%': { opacity: '1' },
+                '100%': { width: '100%', opacity: '1' },
+              },
+              stamp: {
+                '0%': { transform: 'scale(0) rotate(-10deg)', opacity: '0' },
+                '50%': { transform: 'scale(1.1) rotate(-5deg)', opacity: '0.8' },
+                '100%': { transform: 'scale(1) rotate(-7deg)', opacity: '1' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              paperRustle: {
+                '0%, 100%': { transform: 'rotate(0deg)' },
+                '25%': { transform: 'rotate(0.5deg)' },
+                '75%': { transform: 'rotate(-0.5deg)' },
+              },
+              inkFade: {
+                '0%': { opacity: '0', filter: 'blur(2px)' },
+                '100%': { opacity: '1', filter: 'blur(0)' },
+              },
+              pulseGlow: {
+                '0%, 100%': { opacity: '1' },
+                '50%': { opacity: '0.6' },
+              },
+              pop: {
+                '0%': { transform: 'scale(0.8)', opacity: '0' },
+                '50%': { transform: 'scale(1.05)' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              envelopeFold: {
+                '0%': { transform: 'rotateX(90deg)', transformOrigin: 'top', opacity: '0' },
+                '100%': { transform: 'rotateX(0deg)', transformOrigin: 'top', opacity: '1' },
+              },
+              waxSeal: {
+                '0%': { transform: 'scale(0) rotate(0deg)', opacity: '0' },
+                '60%': { transform: 'scale(1.2) rotate(180deg)', opacity: '0.8' },
+                '100%': { transform: 'scale(1) rotate(360deg)', opacity: '1' },
+              },
+              telegraph: {
+                '0%, 100%': { opacity: '1' },
+                '50%': { opacity: '0.3' },
+              },
+              radioDial: {
+                '0%, 100%': { transform: 'rotate(-5deg)' },
+                '50%': { transform: 'rotate(5deg)' },
+              },
+              vintageFlicker: {
+                '0%, 100%': { opacity: '1' },
+                '50%': { opacity: '0.95' },
+              },
+              neonGlow: {
+                '0%': { textShadow: '0 0 10px currentColor, 0 0 20px currentColor' },
+                '100%': { textShadow: '0 0 20px currentColor, 0 0 30px currentColor, 0 0 40px currentColor' },
+              },
+              pageTurn: {
+                '0%': { transform: 'perspective(1000px) rotateY(-90deg)', transformOrigin: 'left', opacity: '0' },
+                '100%': { transform: 'perspective(1000px) rotateY(0deg)', transformOrigin: 'left', opacity: '1' },
+              },
+              drawerSlide: {
+                '0%': { transform: 'translateX(-100%)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Vintage Paper Background with Subtle Grain */
+      body {
+        background-color: #F5F1E8;
+        background-image: 
+          repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.02) 2px, rgba(0,0,0,0.02) 4px),
+          repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,0.02) 2px, rgba(0,0,0,0.02) 4px);
+        position: relative;
+      }
+      
+      /* Brass Corner Brackets */
+      .brass-corners {
+        position: relative;
+      }
+      .brass-corners::before,
+      .brass-corners::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #B8860B;
+      }
+      .brass-corners::before {
+        top: 0;
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+      }
+      .brass-corners::after {
+        bottom: 0;
+        right: 0;
+        border-left: none;
+        border-top: none;
+      }
+      
+      /* Ink Splotch Decoration */
+      .ink-splotch {
+        position: relative;
+      }
+      .ink-splotch::before {
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background: radial-gradient(circle, rgba(44,44,44,0.3) 0%, rgba(44,44,44,0.1) 50%, transparent 70%);
+        border-radius: 50%;
+        filter: blur(1px);
+      }
+      
+      /* Typewriter Ribbon Effect */
+      .typewriter-ribbon {
+        background: linear-gradient(90deg, 
+          transparent 0%, 
+          rgba(122,72,72,0.1) 20%, 
+          rgba(122,72,72,0.15) 50%, 
+          rgba(122,72,72,0.1) 80%, 
+          transparent 100%);
+        position: relative;
+      }
+      
+      /* Vintage Postmark Circle */
+      .postmark {
+        position: relative;
+      }
+      .postmark::after {
+        content: '';
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border: 2px dashed rgba(122,72,72,0.3);
+        border-radius: 50%;
+        top: -10px;
+        right: -10px;
+        transform: rotate(-15deg);
+      }
+      
+      /* Wax Seal Effect */
+      .wax-seal-decoration {
+        position: relative;
+      }
+      .wax-seal-decoration::after {
+        content: '🔒';
+        position: absolute;
+        font-size: 24px;
+        color: #7A4848;
+        filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+        animation: waxSeal 1s ease-out;
+      }
+      
+      /* Vintage Stamp Effect */
+      .vintage-stamp {
+        border: 3px solid rgba(122,72,72,0.5);
+        border-style: dashed;
+        position: relative;
+        padding: 8px;
+      }
+      .vintage-stamp::before {
+        content: '';
+        position: absolute;
+        inset: -3px;
+        border: 1px solid rgba(122,72,72,0.2);
+        border-style: dotted;
+        pointer-events: none;
+      }
+      
+      /* Film Grain Overlay */
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+        pointer-events: none;
+        z-index: 9999;
+        mix-blend-mode: overlay;
+      }
+      
+      /* Vintage Vignette */
+      body::after {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background: radial-gradient(ellipse at center, transparent 0%, rgba(44, 44, 44, 0.15) 100%);
+        pointer-events: none;
+        z-index: 9998;
+      }
+      
+      /* Vintage Text Shadow */
+      .text-vintage-shadow {
+        text-shadow: 2px 2px 4px rgba(44, 44, 44, 0.2);
+      }
+      
+      /* Paper Texture */
+      .paper-texture {
+        background-color: #FAF7F0;
+        background-image: 
+          linear-gradient(90deg, rgba(0,0,0,0.02) 1px, transparent 1px),
+          linear-gradient(rgba(0,0,0,0.02) 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+      
+      /* Aged Paper */
+      .aged-paper {
+        background: linear-gradient(to bottom, #FAF7F0 0%, #F5F1E8 100%);
+        box-shadow: inset 0 0 20px rgba(196, 165, 123, 0.1);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

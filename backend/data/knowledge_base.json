@@ -1,0 +1,220 @@
+[
+  {
+    "id": "nuit-info.overview.definition",
+    "titre": "Qu'est-ce que la Nuit de l'Info ?",
+    "type": "concept",
+    "tags": ["general", "presentation", "definition"],
+    "texte": "La Nuit de l'Info est une compétition nationale francophone qui rassemble des étudiants, des enseignants et des entreprises autour du développement, en une seule nuit, d'une application web complète. L'événement se déroule chaque année, du premier jeudi de décembre au coucher du soleil jusqu'au lever du soleil le vendredi matin suivant. Pendant cette nuit, les équipes conçoivent, implémentent et emballent une application web moderne, tout en répondant à des défis lancés par des partenaires (entreprises, associations, institutions)."
+  },
+  {
+    "id": "nuit-info.overview.calendrier",
+    "titre": "Calendrier de l'édition 2025",
+    "type": "fact",
+    "tags": ["2025", "dates", "calendrier"],
+    "texte": "L'édition 2025 de la Nuit de l'Info se tient du jeudi 4 décembre 2025 au vendredi 5 décembre 2025. Les horaires officiels annoncés sont de 16h34 à 08h04. Comme chaque année, la Nuit suit le principe: du premier jeudi de décembre au coucher du soleil jusqu'au lever du soleil le lendemain matin."
+  },
+  {
+    "id": "nuit-info.overview.serious-game",
+    "titre": "Positionnement de l'événement",
+    "type": "concept",
+    "tags": ["serious-game", "ambiance", "esprit"],
+    "texte": "La Nuit de l'Info est présentée comme un serious-game à la fois ludique et exigeant. Elle rassemble des milliers d'étudiants pour un mélange d'informatique, de communication, de marketing, d'extrême programming, de modélisation, de pizzas, de café et de musique. L'événement valorise la convivialité, le travail collectif et la créativité, tout en restant ancré dans des problématiques réelles proposées par des partenaires."
+  },
+
+  {
+    "id": "nuit-info.objectifs.generaux",
+    "titre": "Objectifs pédagogiques et professionnels",
+    "type": "concept",
+    "tags": ["objectifs", "pedagogie", "professionnel"],
+    "texte": "L'objectif principal de la Nuit de l'Info est de faire travailler ensemble des étudiants sur un défi informatique national. Les défis portent généralement sur des technologies récentes ou des usages contemporains: web, réseaux sociaux, multimédia, etc. L'événement permet aux étudiants en informatique, communication, multimédia et autres disciplines de mener un projet collectif de manière autonome, sur un cahier des charges réaliste. Il encourage la transversalité dans les équipes (profils variés, différentes années et formations). Pour les enseignants et personnels, la Nuit constitue un moment de décloisonnement et de collaboration dans un cadre informel, où l'accompagnement prime sur l'évaluation."
+  },
+  {
+    "id": "nuit-info.objectifs.relation-entreprises",
+    "titre": "Lien avec les entreprises et les partenaires",
+    "type": "concept",
+    "tags": ["entreprises", "partenaires", "recrutement"],
+    "texte": "La Nuit de l'Info offre un espace de rencontre entre étudiants et entreprises. Des ingénieurs, responsables et chefs d'entreprise viennent soutenir les équipes, discuter avec les étudiants et parfois les conseiller. Pour les partenaires, c'est un moyen de gagner en visibilité sur les campus et d'observer la créativité ainsi que les compétences techniques et humaines des étudiants."
+  },
+
+  {
+    "id": "nuit-info.deroulement.global",
+    "titre": "Déroulement global de la Nuit",
+    "type": "process",
+    "tags": ["regles", "deroulement", "timeline"],
+    "texte": "En amont de la Nuit, un sujet de développement web, unique et national, est élaboré par des partenaires académiques et industriels. Des défis thématiques sont également définis, assortis de récompenses. Au début de la Nuit (jeudi soir, au coucher du soleil), le sujet national est révélé simultanément sur tous les sites lors d'une séance plénière. Pendant toute la nuit, les étudiants, organisés en équipes et disposant de moyens techniques adéquats (connexion, hébergement, etc.), développent leur application dans une ambiance festive. Au sein du sujet principal, les équipes choisissent et relèvent certains défis proposés par les partenaires. Au lever du soleil, les développements sont figés, puis les jurys évaluent les productions dans la journée et durant la semaine qui suit."
+  },
+  {
+    "id": "nuit-info.deroulement.detaille",
+    "titre": "Phases détaillées de l'événement",
+    "type": "process",
+    "tags": ["regles", "phases"],
+    "texte": "1) Avant la Nuit: préparation du sujet national par des partenaires, définition des défis, constitution des équipes et organisation logistique par les sites. 2) Début de la Nuit: annonce officielle du sujet national au coucher du soleil. 3) Pendant la Nuit: développement continu de l'application, choix et réalisation de plusieurs défis (dans la limite fixée par l'organisation), animations locales, repas et activités sur chaque site. 4) Fin de la Nuit: au lever du soleil, les équipes figent le code et déposent leurs livrables sur les infrastructures prévues. 5) Après la Nuit: les jurys, organisés par défi et par partenaire, évaluent les projets, puis les résultats sont publiés sur le site dans la semaine qui suit, et les récompenses sont remises aux équipes gagnantes."
+  },
+
+  {
+    "id": "nuit-info.concepts.sujet-national",
+    "titre": "Sujet national commun",
+    "type": "concept",
+    "tags": ["sujet", "thematique"],
+    "texte": "Le sujet de la Nuit de l'Info est un thème unique et national, commun à toutes les équipes. Il reste secret jusqu'au démarrage officiel de la Nuit: ni le thème ni le partenaire porteur ne sont révélés à l'avance. Le sujet est proposé par une organisation partenaire issue du milieu associatif et à but non lucratif, afin de s'aligner sur une problématique réelle. Il implique la conception d'une application web complète: stratégie marketing, contenu, identité visuelle, moteur applicatif, communication et présentation. Les équipes choisissent librement leurs outils de développement et de communication, dans les limites définies par l'organisation."
+  },
+  {
+    "id": "nuit-info.concepts.defis",
+    "titre": "Défis partenaires",
+    "type": "concept",
+    "tags": ["defis", "sponsors", "evaluation"],
+    "texte": "Les défis sont des challenges spécifiques proposés par des partenaires (entreprises, institutions, associations). Ils mettent l'accent sur certaines valeurs ou thématiques: esprit d'équipe, architecture logicielle, accessibilité, méthodologie, communication, développement durable, usage d'une technologie particulière, etc. Un défi ne remplace pas le sujet principal: il s'y ajoute de manière orthogonale (par exemple en améliorant un aspect de l'application). Chaque équipe doit choisir ses défis avant une heure limite, dans la limite d'un nombre maximum autorisé (jusqu'à cinq défis). Chaque défi dispose de ses propres critères d'évaluation et de sa propre dotation."
+  },
+  {
+    "id": "nuit-info.concepts.equipes",
+    "titre": "Composition des équipes",
+    "type": "rule",
+    "tags": ["equipes", "etudiants"],
+    "texte": "Les étudiants s'organisent eux-mêmes en équipes. Il est recommandé, mais non obligatoire, que les équipes soient réparties sur au moins deux sites. Les organisateurs encouragent des équipes hétérogènes, réunissant différentes années et formations. Tous les profils utiles à un projet web sont bienvenus: développement, graphisme, intégration HTML/CSS, rédaction de contenu, communication, animation des réseaux sociaux, etc. Selon la FAQ, une équipe doit compter au moins deux membres, mais il n'existe pas de limite supérieure stricte au nombre de participants."
+  },
+  {
+    "id": "nuit-info.concepts.projets",
+    "titre": "Nature des projets réalisés",
+    "type": "rule",
+    "tags": ["projets", "livrables"],
+    "texte": "Chaque équipe doit livrer un projet prenant la forme d'un site ou d'une application web accessible. Le jury évaluera les réalisations à partir de ces livrables en ligne. Il est indispensable que les projets soient déposés sur des infrastructures pérennes. Si des logiciels ou outils particuliers sont utilisés, ils doivent être accessibles à distance pour permettre l'évaluation. Les équipes doivent respecter les consignes spécifiques de chaque défi (format des livrables, documents attendus, technologies imposées, etc.)."
+  },
+  {
+    "id": "nuit-info.concepts.jurys",
+    "titre": "Rôle des jurys et résultats",
+    "type": "process",
+    "tags": ["jurys", "resultats"],
+    "texte": "Les jurys sont constitués par les partenaires pour chaque défi, ainsi que par les porteurs du sujet national pour le défi principal. À partir du lendemain midi de la Nuit, et dans la semaine qui suit, les jurys examinent les projets déposés. Les résultats des différents défis sont ensuite publiés sur le site officiel de la Nuit de l'Info. Afin de faciliter la remise des prix, les équipes doivent fournir des coordonnées complètes (nom de l'équipe, adresse e-mail, adresse postale, etc.)."
+  },
+
+  {
+    "id": "nuit-info.roles.etudiants",
+    "titre": "Rôle et profil des étudiants",
+    "type": "role",
+    "tags": ["etudiants", "participants"],
+    "texte": "Tout étudiant inscrit dans un établissement d'enseignement supérieur pour l'année universitaire en cours peut participer, à condition de disposer de compétences utiles à la réalisation d'une application informatique: programmation, design, communication, gestion de communauté, etc. Les étudiants forment des équipes et se coordonnent sur un site participant. L'événement est l'occasion d'appliquer leurs connaissances à une problématique concrète, de travailler en conditions intensives et de découvrir le travail en équipe pluridisciplinaire."
+  },
+  {
+    "id": "nuit-info.roles.sites",
+    "titre": "Qu'est-ce qu'un site ?",
+    "type": "role",
+    "tags": ["sites", "organisateurs-locaux"],
+    "texte": "Un site est un regroupement d'une ou plusieurs écoles ou universités sur un même lieu géographique. Il peut exister plusieurs sites dans une même ville. Un site peut se limiter à une seule école et porte alors généralement son nom. Chaque site doit obligatoirement avoir un correspondant institutionnel, relais de l'organisation nationale. Le site assure la logistique locale (machines, réseau, locaux, alimentation, animations) et encadre les inscriptions des étudiants et la formation des équipes."
+  },
+  {
+    "id": "nuit-info.roles.correspondant-site",
+    "titre": "Rôle du correspondant de site",
+    "type": "role",
+    "tags": ["correspondant", "organisation"],
+    "texte": "Le correspondant de site est la personne chargée de relayer l'organisation nationale sur un campus ou un ensemble d'écoles. Il s'occupe d'enregistrer le site, de coordonner la logistique (infrastructures techniques, ravitaillement, animations), de mettre en place la procédure d'inscription des étudiants et de s'assurer qu'au moins un défi est apporté par le site via un partenaire local. Il est également un point de contact pour les partenaires de site."
+  },
+  {
+    "id": "nuit-info.roles.partenaires",
+    "titre": "Types de partenariats",
+    "type": "role",
+    "tags": ["partenaires", "sponsors", "defis"],
+    "texte": "Plusieurs types de contribution sont possibles: sponsor de défi, partenaire de site ou partenaire national. Un sponsor de défi conçoit un défi aligné sur le cahier des charges de la Nuit, organise le jury de ce défi et propose une dotation (souvent de l'ordre de quelques centaines à quelques milliers d'euros). Un partenaire de site aide un campus à organiser l'événement localement (soutien financier, logistique ou moral en venant encourager les étudiants). Un partenaire national soutient l'événement à l'échelle de l'ensemble du dispositif."
+  },
+
+  {
+    "id": "nuit-info.inscription.general",
+    "titre": "Inscription générale",
+    "type": "process",
+    "tags": ["inscription", "procedure"],
+    "texte": "L'inscription se fait via la plateforme officielle de la Nuit de l'Info. Les campus doivent d'abord déclarer un site et mettre en place une procédure d'inscription interne pour leurs étudiants (par exemple via un référent ou une application). Les étudiants ne peuvent pas participer depuis chez eux: ils doivent se rendre sur un site participant mis à disposition par leur campus. Sur le site web, une page d'inscription centralise l'accès aux comptes, équipes, sites et défis."
+  },
+  {
+    "id": "nuit-info.inscription.etudiants",
+    "titre": "Inscription des étudiants et des équipes",
+    "type": "process",
+    "tags": ["inscription-etudiants", "equipes"],
+    "texte": "Pour participer, un étudiant doit: 1) dépendre d'un campus qui propose un site inscrit à la Nuit de l'Info; 2) suivre la procédure d'inscription définie par ce campus; 3) appartenir à une équipe d'au moins deux personnes. Il n'existe pas de limite strictement imposée au nombre maximal de membres par équipe, même si des tailles raisonnables sont encouragées pour faciliter l'organisation."
+  },
+  {
+    "id": "nuit-info.inscription.stats-2025",
+    "titre": "Statistiques d'inscriptions (édition en cours)",
+    "type": "fact",
+    "tags": ["statistiques", "2025"],
+    "texte": "Sur la page d'inscription, la plateforme affiche en temps réel le nombre d'équipes, de participants, de sites et de défis enregistrés pour l'édition en cours. Pour l'édition 2025, on trouve par exemple une indication du type: près d'un millier d'équipes, plusieurs milliers de participants, plusieurs dizaines de sites et de défis. Ces chiffres évoluent à mesure que les inscriptions progressent."
+  },
+
+  {
+    "id": "nuit-info.faq.defis",
+    "titre": "FAQ - Défis et porteurs de défis",
+    "type": "faq",
+    "tags": ["faq", "defis", "partenaires"],
+    "texte": "Dans la FAQ, un défi est décrit comme un aspect orthogonal au sujet principal: il ne s'agit pas d'un autre projet, mais d'un angle complémentaire (ex. accessibilité, performance, UX, usage d'un produit particulier). Les mauvais exemples de sujets seraient de simples commandes marketing pour promouvoir un produit sans lien avec le sujet national. Le porteur de défi est une organisation (entreprise, institution publique, association) qui propose ce défi. Il bénéficie d'une forte visibilité médiatique et s'engage à respecter une charte précisant que le défi doit permettre d'évaluer les étudiants sur des compétences identifiables (développement, architecture, communication, etc.)."
+  },
+  {
+    "id": "nuit-info.faq.pourquoi-soutenir",
+    "titre": "FAQ - Pourquoi et comment soutenir la Nuit ?",
+    "type": "faq",
+    "tags": ["faq", "soutien", "partenariat"],
+    "texte": "Soutenir la Nuit de l'Info permet d'accroître sa visibilité auprès des étudiants et des campus, et d'observer directement leurs idées et leur créativité. Pour devenir partenaire, il est possible: 1) d'être sponsor de défi; 2) d'être partenaire de site; 3) d'être partenaire national. Les contacts se font via les adresses officielles fournies par l'organisation (ex. adresse dédiée pour les défis, coordonnées des responsables de site sur le wiki de la Nuit)."
+  },
+  {
+    "id": "nuit-info.faq.sites",
+    "titre": "FAQ - Création et responsabilité d’un site",
+    "type": "faq",
+    "tags": ["faq", "sites", "organisation"],
+    "texte": "La FAQ détaille les responsabilités d'un site: proposer un lieu où les étudiants pourront participer; garantir une infrastructure machine et réseau suffisante; prévoir la nourriture et les boissons pour la Nuit; mettre en place la procédure d'inscription des étudiants; et surtout, trouver un partenaire industriel ou institutionnel pour proposer au moins un défi. L'organisation insiste sur le fait qu'il est primordial que chaque site apporte au moins un défi pour contribuer au succès global de l'événement."
+  },
+  {
+    "id": "nuit-info.faq.participation-etudiants",
+    "titre": "FAQ - Conditions de participation des étudiants",
+    "type": "faq",
+    "tags": ["faq", "participation", "etudiants"],
+    "texte": "Qui peut participer? Tout étudiant inscrit dans l'enseignement supérieur au cours de l'année universitaire en cours. Où cela se passe-t-il? Sur un site mis à disposition par le campus, jamais à domicile. En quoi cela consiste-t-il? À réaliser en une nuit une application informatique répondant au cahier des charges, avec obligation de sélectionner un nombre défini de défis pour pimenter le challenge. Comment se déroule la Nuit? Chaque site organise son programme (repas, animations, ateliers). Que gagne-t-on? L'objectif premier est de vivre une expérience conviviale et formatrice, mais les sponsors proposent des prix liés aux défis (dotations variées, bons d'achat, etc.)."
+  },
+
+  {
+    "id": "nuit-info.past-editions.liste",
+    "titre": "Liste des éditions passées",
+    "type": "fact",
+    "tags": ["historique", "editions"],
+    "texte": "Le site officiel de la Nuit de l'Info répertorie toutes les éditions depuis 2007. La liste comprend les années 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023 et 2024, avec pour chaque année un lien vers le site dédié de l'édition et le sujet correspondant."
+  },
+  {
+    "id": "nuit-info.past-editions.2024",
+    "titre": "Édition 2024 - Thème et chiffres clés",
+    "type": "fact",
+    "tags": ["2024", "historique"],
+    "texte": "Thème: \"Et si l'océan était un corps humain ?\". Dates et horaires: du 5 décembre 2024 à 16h39 au 6 décembre 2024 à 8h04. L'édition 2024 a rassemblé plus de 6000 participants, environ 900 équipes, plus de 70 sites et une quarantaine de défis. Le site propose un lien vers le site complet de l'édition 2024 et vers l'énoncé du sujet national."
+  },
+  {
+    "id": "nuit-info.past-editions.2023",
+    "titre": "Édition 2023 - Thème et chiffres clés",
+    "type": "fact",
+    "tags": ["2023", "historique"],
+    "texte": "Thème: \"Faire face au changement climatique : le vrai du faux\". Dates et horaires: du 7 décembre 2023 à 16h38 au 8 décembre 2023 à 8h06. L'édition 2023 a réuni plus de 5500 participants, environ 800 équipes, plus de 60 sites et près de 50 défis. Le site renvoie également vers une vidéo récapitulative de l'édition."
+  },
+  {
+    "id": "nuit-info.past-editions.2022",
+    "titre": "Édition 2022 - Thème et chiffres clés",
+    "type": "fact",
+    "tags": ["2022", "historique"],
+    "texte": "Thème: \"SexInfo, la prévention par le jeu\". Dates: du 1er décembre 2022 à 16h35 au 2 décembre 2022 à 8h00. Environ 4600 participants, près de 700 équipes, plus de 60 sites et plus de 50 défis ont été recensés. L'édition 2022 met en avant la dimension de prévention par le jeu en collaboration avec des partenaires associatifs et éditoriaux."
+  },
+  {
+    "id": "nuit-info.past-editions.2021",
+    "titre": "Édition 2021 - Thème et chiffres clés",
+    "type": "fact",
+    "tags": ["2021", "historique"],
+    "texte": "Thème: \"L'informatique à l'aide de l'histoire des sauvetages en mer\". Dates: du 2 décembre 2021 à 16h40 au 3 décembre 2021 à 8h00. L'édition a rassemblé plus de 3500 participants, environ 500 équipes et plus de 50 sites. Plusieurs partenaires, dont des hébergeurs et des médias spécialisés, ont soutenu cette édition."
+  },
+  {
+    "id": "nuit-info.past-editions.2020",
+    "titre": "Édition 2020 - Thème et chiffres clés",
+    "type": "fact",
+    "tags": ["2020", "historique"],
+    "texte": "Thème: \"Suivre l’activité des surfeurs et l’exposition à leur milieu\". Dates: du 3 décembre 2020 à 16h39 au 4 décembre 2020 à 8h02. Environ 1350 participants, plus de 200 équipes, une trentaine de sites et une vingtaine de défis ont été recensés, dans un contexte particulier lié aux contraintes sanitaires."
+  },
+
+  {
+    "id": "nuit-info.contact.et-ressources",
+    "titre": "Contacts et ressources complémentaires",
+    "type": "link",
+    "tags": ["contact", "wiki", "ressources"],
+    "texte": "Le site officiel propose une page de contact avec les principales informations de communication (coordonnées des organisateurs, réseaux sociaux, documents de communication). Un wiki dédié est également accessible depuis le menu principal. Ce wiki regroupe notamment: listes détaillées des sites, équipes et défis; informations techniques; résultats des défis; ainsi que diverses ressources pour les organisateurs et participants."
+  }
+]
