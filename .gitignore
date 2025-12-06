@@ -40,3 +40,5 @@ yarn-error.log*
 
 # NLTK data (downloaded at runtime)
 backend/nltk_data/
+
+.env
